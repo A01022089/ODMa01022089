@@ -1,0 +1,13 @@
+# Target labels
+ ceres
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-build.rule

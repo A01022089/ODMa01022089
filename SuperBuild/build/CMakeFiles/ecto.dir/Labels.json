@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ecto"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ecto.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ecto-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/stamp/ecto-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ecto"
+		],
+		"name" : "ecto"
+	}
+}

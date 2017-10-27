@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/ecto/devel/setup.sh

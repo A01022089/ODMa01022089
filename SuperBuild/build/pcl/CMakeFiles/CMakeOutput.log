@@ -1,0 +1,872 @@
+The system is: Linux - 4.4.0-96-lowlatency - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/3.5.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49f6d/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_49f6d.dir/build.make CMakeFiles/cmTC_49f6d.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49f6d.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_49f6d.dir/testCCompiler.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_49f6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f6d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_49f6d.dir/testCCompiler.c.o  -o cmTC_49f6d -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c69ee/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c69ee.dir/build.make CMakeFiles/cmTC_c69ee.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c69ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c69ee.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o  -o cmTC_c69ee -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c69ee' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDkDpiE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c69ee /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c69ee/fast"]
+  ignore line: [make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c69ee.dir/build.make CMakeFiles/cmTC_c69ee.dir/build]
+  ignore line: [make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c69ee]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c69ee.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o  -o cmTC_c69ee -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c69ee' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDkDpiE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c69ee /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDkDpiE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c69ee] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_c69ee.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dad7e/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dad7e.dir/build.make CMakeFiles/cmTC_dad7e.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dad7e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_dad7e.dir/feature_tests.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dad7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dad7e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dad7e.dir/feature_tests.c.o  -o cmTC_dad7e -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2c40/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a2c40.dir/build.make CMakeFiles/cmTC_a2c40.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2c40.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a2c40.dir/feature_tests.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a2c40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2c40.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a2c40.dir/feature_tests.c.o  -o cmTC_a2c40 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36db2/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_36db2.dir/build.make CMakeFiles/cmTC_36db2.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36db2.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_36db2.dir/feature_tests.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.c
+Linking C executable cmTC_36db2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36db2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_36db2.dir/feature_tests.c.o  -o cmTC_36db2 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ad46/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4ad46.dir/build.make CMakeFiles/cmTC_4ad46.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ad46.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_4ad46.dir/testCXXCompiler.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4ad46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad46.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4ad46.dir/testCXXCompiler.cxx.o  -o cmTC_4ad46 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e88b/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5e88b.dir/build.make CMakeFiles/cmTC_5e88b.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5e88b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e88b.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5e88b -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5e88b' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVs06b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5e88b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5e88b/fast"]
+  ignore line: [make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5e88b.dir/build.make CMakeFiles/cmTC_5e88b.dir/build]
+  ignore line: [make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5e88b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e88b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5e88b -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5e88b' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmVs06b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5e88b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmVs06b.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5e88b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_5e88b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b58fa/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b58fa.dir/build.make CMakeFiles/cmTC_b58fa.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b58fa.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_b58fa.dir/feature_tests.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b58fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b58fa.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b58fa.dir/feature_tests.cxx.o  -o cmTC_b58fa -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31f48/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_31f48.dir/build.make CMakeFiles/cmTC_31f48.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31f48.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_31f48.dir/feature_tests.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_31f48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31f48.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_31f48.dir/feature_tests.cxx.o  -o cmTC_31f48 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9cee/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e9cee.dir/build.make CMakeFiles/cmTC_e9cee.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9cee.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_e9cee.dir/feature_tests.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e9cee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9cee.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e9cee.dir/feature_tests.cxx.o  -o cmTC_e9cee -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAVE_MM_MALLOC succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da5a0/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da5a0.dir/build.make CMakeFiles/cmTC_da5a0.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_da5a0.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_MM_MALLOC   -o CMakeFiles/cmTC_da5a0.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_da5a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5a0.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_MM_MALLOC    CMakeFiles/cmTC_da5a0.dir/src.cxx.o  -o cmTC_da5a0 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <mm_malloc.h>
+        int main()
+        {
+          void* mem = _mm_malloc (100, 16);
+          return 0;
+        }
+Performing C++ SOURCE FILE Test HAVE_POSIX_MEMALIGN succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2049a/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2049a.dir/build.make CMakeFiles/cmTC_2049a.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2049a.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_POSIX_MEMALIGN   -o CMakeFiles/cmTC_2049a.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2049a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2049a.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_POSIX_MEMALIGN    CMakeFiles/cmTC_2049a.dir/src.cxx.o  -o cmTC_2049a -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <stdlib.h>
+        int main()
+        {
+          void* mem;
+          return posix_memalign (&mem, 16, 100);
+        }
+Performing C++ SOURCE FILE Test HAVE_SSE4_2_EXTENSIONS succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cf4e/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5cf4e.dir/build.make CMakeFiles/cmTC_5cf4e.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5cf4e.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_SSE4_2_EXTENSIONS -msse4.2   -o CMakeFiles/cmTC_5cf4e.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5cf4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf4e.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_SSE4_2_EXTENSIONS -msse4.2    CMakeFiles/cmTC_5cf4e.dir/src.cxx.o  -o cmTC_5cf4e -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <emmintrin.h>
+        #include <nmmintrin.h>
+        int main ()
+        {
+          long long a[2] = {  1, 2 };
+          long long b[2] = { -1, 3 };
+          long long c[2];
+          __m128i va = _mm_loadu_si128 ((__m128i*)a);
+          __m128i vb = _mm_loadu_si128 ((__m128i*)b);
+          __m128i vc = _mm_cmpgt_epi64 (va, vb);
+
+          _mm_storeu_si128 ((__m128i*)c, vc);
+          if (c[0] == -1LL && c[1] == 0LL)
+            return (0);
+          else
+            return (1);
+        }
+Performing C++ SOURCE FILE Test HAVE_SSE4_1_EXTENSIONS succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eedd0/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eedd0.dir/build.make CMakeFiles/cmTC_eedd0.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eedd0.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_SSE4_1_EXTENSIONS -msse4.1   -o CMakeFiles/cmTC_eedd0.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eedd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eedd0.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_SSE4_1_EXTENSIONS -msse4.1    CMakeFiles/cmTC_eedd0.dir/src.cxx.o  -o cmTC_eedd0 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <smmintrin.h>
+        int main ()
+        {
+          __m128 a, b;
+          float vals[4] = {1, 2, 3, 4};
+          const int mask = 123;
+          a = _mm_loadu_ps (vals);
+          b = a;
+          b = _mm_dp_ps (a, a, mask);
+          _mm_storeu_ps (vals,b);
+          return (0);
+        }
+Performing C++ SOURCE FILE Test HAVE_SSE3_EXTENSIONS succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c797/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3c797.dir/build.make CMakeFiles/cmTC_3c797.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c797.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_SSE3_EXTENSIONS -msse3   -o CMakeFiles/cmTC_3c797.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c797.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_SSE3_EXTENSIONS -msse3    CMakeFiles/cmTC_3c797.dir/src.cxx.o  -o cmTC_3c797 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <pmmintrin.h>
+        int main ()
+        {
+            __m128d a, b;
+            double vals[2] = {0};
+            a = _mm_loadu_pd (vals);
+            b = _mm_hadd_pd (a,a);
+            _mm_storeu_pd (vals, b);
+            return (0);
+        }
+Performing C++ SOURCE FILE Test HAVE_SSE2_EXTENSIONS succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3056e/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3056e.dir/build.make CMakeFiles/cmTC_3056e.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3056e.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_SSE2_EXTENSIONS -msse2   -o CMakeFiles/cmTC_3056e.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3056e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3056e.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_SSE2_EXTENSIONS -msse2    CMakeFiles/cmTC_3056e.dir/src.cxx.o  -o cmTC_3056e -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <emmintrin.h>
+        int main ()
+        {
+            __m128d a, b;
+            double vals[2] = {0};
+            a = _mm_loadu_pd (vals);
+            b = _mm_add_pd (a,a);
+            _mm_storeu_pd (vals,b);
+            return (0);
+        }
+Performing C++ SOURCE FILE Test HAVE_SSE_EXTENSIONS succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70dcc/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70dcc.dir/build.make CMakeFiles/cmTC_70dcc.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70dcc.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_SSE_EXTENSIONS -msse   -o CMakeFiles/cmTC_70dcc.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70dcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70dcc.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_SSE_EXTENSIONS -msse    CMakeFiles/cmTC_70dcc.dir/src.cxx.o  -o cmTC_70dcc -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <xmmintrin.h>
+        int main ()
+        {
+            __m128 a, b;
+            float vals[4] = {0};
+            a = _mm_loadu_ps (vals);
+            b = a;
+            b = _mm_add_ps (a,b);
+            _mm_storeu_ps (vals,b);
+            return (0);
+        }
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31a9c/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_31a9c.dir/build.make CMakeFiles/cmTC_31a9c.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31a9c.dir/src.c.o
+/usr/bin/cc    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_31a9c.dir/src.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31a9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31a9c.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_31a9c.dir/src.c.o  -o cmTC_31a9c -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeeded with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec2bb/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ec2bb.dir/build.make CMakeFiles/cmTC_ec2bb.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec2bb.dir/src.cxx.o
+/usr/bin/c++     -Wall -Wextra -Wno-unknown-pragmas -fno-strict-aliasing -Wno-format-extra-args -Wno-sign-compare -Wno-invalid-offsetof -Wno-conversion  -march=native -msse4.2 -mfpmath=sse -Wabi -pthread -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_ec2bb.dir/src.cxx.o -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec2bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec2bb.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wextra -Wno-unknown-pragmas -fno-strict-aliasing -Wno-format-extra-args -Wno-sign-compare -Wno-invalid-offsetof -Wno-conversion  -march=native -msse4.2 -mfpmath=sse -Wabi -pthread -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_ec2bb.dir/src.cxx.o  -o cmTC_ec2bb -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_281db/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_281db.dir/build.make CMakeFiles/cmTC_281db.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_281db.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fopenmp    -o CMakeFiles/cmTC_281db.dir/CheckIncludeFile.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_281db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_281db.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp     CMakeFiles/cmTC_281db.dir/CheckIncludeFile.c.o  -o cmTC_281db -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25c36/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_25c36.dir/build.make CMakeFiles/cmTC_25c36.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25c36.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fopenmp    -o CMakeFiles/cmTC_25c36.dir/CheckSymbolExists.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_25c36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c36.dir/link.txt --verbose=1
+/usr/bin/cc   -fopenmp     CMakeFiles/cmTC_25c36.dir/CheckSymbolExists.c.o  -o cmTC_25c36 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp'
+
+File /usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

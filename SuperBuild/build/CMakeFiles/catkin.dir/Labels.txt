@@ -1,0 +1,13 @@
+# Target labels
+ catkin
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-build.rule

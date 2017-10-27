@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/paulinus/opengv/archive/7436794df04d85433a966395088e38b107e69fc2.zip'
+tag='MD5=9B303C3AB9F210B242941E851572D2C8'

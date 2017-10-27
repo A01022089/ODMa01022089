@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/ceres/stamp/ceres-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ceres"
+		],
+		"name" : "ceres"
+	}
+}

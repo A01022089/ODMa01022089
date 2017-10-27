@@ -1,0 +1,13 @@
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/mvstexturing.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ceres.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pcl.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/edit_cache.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opencv.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opengv.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opensfm.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/cmvs.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/ecto.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/rebuild_cache.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/gflags.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pdal.dir

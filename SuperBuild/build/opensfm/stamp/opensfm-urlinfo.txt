@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/mapillary/OpenSfM/archive/odm-4.zip'
+tag='MD5=C7444B8595AAE33C6E191D8E8518BD5E'

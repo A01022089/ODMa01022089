@@ -1,0 +1,19 @@
+os: linux
+language: cpp
+sudo: required
+dist: trusty
+compiler:
+  - gcc
+
+before_install:
+  - sudo add-apt-repository --yes ppa:george-edison55/cmake-3.x
+  - sudo apt-get update -qq
+  - sudo apt-get install cmake
+
+before_script:
+  - mkdir build
+  - cd build
+
+script:
+  - cmake .. && make
+  - cmake .. -DRESEARCH=ON && make

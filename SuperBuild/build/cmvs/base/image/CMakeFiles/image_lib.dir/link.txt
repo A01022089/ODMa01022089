@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimage_lib.a  CMakeFiles/image_lib.dir/camera.cc.o CMakeFiles/image_lib.dir/image.cc.o CMakeFiles/image_lib.dir/photo.cc.o CMakeFiles/image_lib.dir/photoSetS.cc.o
+/usr/bin/ranlib libimage_lib.a

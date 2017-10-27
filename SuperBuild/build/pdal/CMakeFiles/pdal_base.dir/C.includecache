@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/pdal/vendor/rply/rply.c
+stdio.h
+-
+ctype.h
+-
+assert.h
+-
+string.h
+-
+limits.h
+-
+float.h
+-
+stdarg.h
+-
+stdlib.h
+-
+stddef.h
+-
+rply.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/pdal/vendor/rply/rply.h
+rplyfile.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/pdal/vendor/rply/rplyfile.h
+stdint.h
+-
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/pdal/vendor/rply/rply.h
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/pdal/vendor/rply/rplyfile.h
+

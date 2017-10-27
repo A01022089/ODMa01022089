@@ -1,0 +1,1 @@
+cmd='cmake;<SOURCE_DIR>/opensfm/src;-DCERES_ROOT_DIR=/usr/OpenDroneMap_v0_3_1/SuperBuild/install;-DOpenCV_DIR=/usr/OpenDroneMap_v0_3_1/SuperBuild/install/share/OpenCV;-DOPENSFM_BUILD_TESTS=off'

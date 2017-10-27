@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/PointCloudLibrary/pcl/archive/pcl-1.7.2.tar.gz'
+tag='MD5=02c72eb6760fcb1f2e359ad8871b9968'

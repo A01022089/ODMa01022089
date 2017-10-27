@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/main/genOption.cc
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+

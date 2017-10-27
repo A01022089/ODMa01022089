@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtinycthread.a  CMakeFiles/tinycthread.dir/tinycthread.c.o CMakeFiles/tinycthread.dir/rwmutex.cpp.o
+/usr/bin/ranlib libtinycthread.a

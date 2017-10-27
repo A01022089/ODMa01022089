@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/cmvs.dir/cmvs.cc.o  -o /usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin/cmvs -rdynamic ../base/cmvs/libcmvs_lib.a ../base/image/libimage_lib.a ../thirdParty/graclus1.2/libgraclus_lib.a -lpthread -ljpeg ../thirdParty/tinycthread/libtinycthread.a 

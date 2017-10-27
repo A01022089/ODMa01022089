@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/edgarriba/CMVS-PMVS/archive/master.zip'
+tag='MD5=dbb1493f49ca099b4208381bd20d1435'

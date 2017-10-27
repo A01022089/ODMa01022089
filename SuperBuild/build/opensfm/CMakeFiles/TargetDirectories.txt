@@ -1,0 +1,5 @@
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/CMakeFiles/edit_cache.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/CMakeFiles/akaze.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/CMakeFiles/vl.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/CMakeFiles/csfm.dir
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/CMakeFiles/rebuild_cache.dir

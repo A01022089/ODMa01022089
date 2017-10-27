@@ -1,0 +1,72 @@
+#!/bin/sh
+prefix=/usr/OpenDroneMap_v0_3_1/SuperBuild/install
+exec_prefix=/usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin
+libdir=/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib
+
+usage()
+{
+	cat <<EOF
+Usage: pdal-config [OPTIONS]
+Options:
+	[--cflags]
+	[--cxxflags]
+	[--defines]
+	[--includes]
+	[--libs]
+	[--plugin-dir]
+	[--version]
+	[--python-version]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo -L/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib -lpdalcpp
+    ;;
+
+  --plugin-dir)
+    echo /usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib
+    ;;
+
+  --prefix)
+    echo ${prefix}
+     ;;
+
+  --ldflags)
+    echo -L${libdir}
+    ;;
+
+  --defines)
+    echo 
+    ;;
+
+  --includes)
+    echo -I/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include -I/usr/include/gdal -I/usr/include/libxml2 -I/usr/include
+    ;;
+
+  --cflags)
+    echo 
+    ;;
+
+  --cxxflags)
+    echo  -Wextra -Wall -Wno-unused-parameter -Wno-unused-variable -Wpointer-arith -Wcast-align -Wcast-qual -Wredundant-decls -Wno-long-long -Wno-unknown-pragmas -Wno-deprecated-declarations -isystem /usr/local/include -std=c++11 -std=c++11
+    ;;
+
+  --version)
+    echo 1.4.0
+    ;;
+
+  --python-version)
+    echo 
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

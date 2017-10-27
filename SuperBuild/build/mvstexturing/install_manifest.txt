@@ -1,0 +1,2 @@
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/libtex.a
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin/texrecon

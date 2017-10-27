@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DBUILD_DOC=OFF;-DBUILD_SAMPLES=OFF;-DCATKIN_ENABLE_TESTING=OFF;-DCMAKE_INSTALL_PREFIX:PATH=/usr/OpenDroneMap_v0_3_1/SuperBuild/install;-GUnix Makefiles;/usr/OpenDroneMap_v0_3_1/SuperBuild/src/ecto'

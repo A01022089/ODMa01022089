@@ -1,0 +1,13 @@
+# Target labels
+ cmvs
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/cmvs
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/cmvs.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/cmvs-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/cmvs/stamp/cmvs-build.rule

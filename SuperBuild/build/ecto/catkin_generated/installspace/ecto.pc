@@ -1,0 +1,8 @@
+prefix=/usr/OpenDroneMap_v0_3_1/SuperBuild/install
+
+Name: ecto
+Description: Description of ecto
+Version: 0.6.11
+Cflags: -I/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include -I/usr/include -I/usr/include/python2.7
+Libs: -L/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib -lecto -l:/usr/lib/x86_64-linux-gnu/libpython2.7.so
+Requires: 

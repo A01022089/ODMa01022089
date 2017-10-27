@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/nmoehrle/mvs-texturing/archive/44d594d8e1d7a6b323371b1f5f0fbd3e19d7c52a.zip'
+tag='MD5=A21CCA0177522F9747D5F88846B42C11'

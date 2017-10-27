@@ -1,0 +1,1 @@
+cmd='cmake;<SOURCE_DIR>/program;-DCMAKE_RUNTIME_OUTPUT_DIRECTORY:PATH=/usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin;-DCMAKE_INSTALL_PREFIX:PATH=/usr/OpenDroneMap_v0_3_1/SuperBuild/install'

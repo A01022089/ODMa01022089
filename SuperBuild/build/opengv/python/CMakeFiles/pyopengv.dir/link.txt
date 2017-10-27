@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  --std=c++11 -O3 -DNDEBUG  -shared -Wl,-soname,pyopengv.so -o ../lib/pyopengv.so CMakeFiles/pyopengv.dir/pyopengv.o ../lib/libopengv.a -lboost_python -lpython2.7 

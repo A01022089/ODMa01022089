@@ -1,0 +1,11 @@
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/libgflags.a
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/libgflags_nothreads.a
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/gflags/gflags.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/gflags/gflags_declare.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/gflags/gflags_completions.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/gflags/gflags_gflags.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/cmake/gflags/gflags-config.cmake
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/cmake/gflags/gflags-config-version.cmake
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/cmake/gflags/gflags-export.cmake
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/cmake/gflags/gflags-export-release.cmake
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin/gflags_completions.sh

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/tinycthread.c
+tinycthread.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/tinycthread.h
+stdlib.h
+-
+signal.h
+-
+sched.h
+-
+unistd.h
+-
+sys/time.h
+-
+errno.h
+-
+process.h
+-
+sys/timeb.h
+-
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/tinycthread.h
+time.h
+-
+pthread.h
+-
+windows.h
+-
+

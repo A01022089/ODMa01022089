@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pcl"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pcl.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pcl-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pcl/stamp/pcl-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pcl"
+		],
+		"name" : "pcl"
+	}
+}

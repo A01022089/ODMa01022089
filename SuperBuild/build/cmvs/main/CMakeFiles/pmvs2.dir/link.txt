@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/pmvs2.dir/pmvs2.cc.o  -o /usr/OpenDroneMap_v0_3_1/SuperBuild/install/bin/pmvs2 -rdynamic ../base/pmvs/libpmvs_lib.a ../base/image/libimage_lib.a ../base/numeric/libnumeric_lib.a -lpthread -ljpeg ../thirdParty/nlopt-2.4.2/libnlopt.a ../thirdParty/tinycthread/libtinycthread.a 

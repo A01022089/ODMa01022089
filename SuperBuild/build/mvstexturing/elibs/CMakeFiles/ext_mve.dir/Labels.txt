@@ -1,0 +1,13 @@
+# Target labels
+ ext_mve
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-build.rule

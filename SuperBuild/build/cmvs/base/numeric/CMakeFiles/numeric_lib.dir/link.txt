@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnumeric_lib.a  CMakeFiles/numeric_lib.dir/mylapack.cc.o
+/usr/bin/ranlib libnumeric_lib.a

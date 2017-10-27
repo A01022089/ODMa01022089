@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/CentralAbsoluteAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/CentralAbsoluteAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/MACentralAbsolute.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/MACentralAbsolute.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/MANoncentralAbsolute.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/MANoncentralAbsolute.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/NoncentralAbsoluteAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/NoncentralAbsoluteAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/NoncentralAbsoluteMultiAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/NoncentralAbsoluteMultiAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/methods.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/methods.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/Epnp.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/Epnp.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gp3p/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gp3p/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gp3p/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gp3p/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gp3p/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp1/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp1/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp1/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp1/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp1/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp2/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp2/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp2/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp2/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp2/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp3/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp3/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp3/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp3/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp3/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp4/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp4/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp4/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp4/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp4/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp5/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp5/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp5/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/gpnp5/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/gpnp5/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/main.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/main.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/upnp2.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/upnp2.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/absolute_pose/modules/upnp4.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/absolute_pose/modules/upnp4.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/Sturm.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/Sturm.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/arun.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/arun.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/cayley.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/cayley.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/gauss_jordan.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/gauss_jordan.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/quaternion.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/quaternion.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/math/roots.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/math/roots.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/point_cloud/MAPointCloud.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/point_cloud/MAPointCloud.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/point_cloud/PointCloudAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/point_cloud/PointCloudAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/point_cloud/methods.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/point_cloud/methods.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/CentralRelativeAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/CentralRelativeMultiAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeMultiAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/CentralRelativeWeightingAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/CentralRelativeWeightingAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/MACentralRelative.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/MACentralRelative.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/MANoncentralRelative.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelative.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/MANoncentralRelativeMulti.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/MANoncentralRelativeMulti.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/NoncentralRelativeAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/NoncentralRelativeMultiAdapter.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/NoncentralRelativeMultiAdapter.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/methods.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/methods.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/eigensolver/modules.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/eigensolver/modules.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_kneip/code.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/code.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_kneip/init.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/init.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_kneip/reductors.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/reductors.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_kneip/spolynomials.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_kneip/spolynomials.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_nister/modules.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_nister/modules.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/fivept_stewenius/modules.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/fivept_stewenius/modules.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/ge/modules.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/ge/modules.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/main.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/main.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/relative_pose/modules/sixpt/modules2.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/relative_pose/modules/sixpt/modules2.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/absolute_pose/AbsolutePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/AbsolutePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/absolute_pose/MultiNoncentralAbsolutePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/absolute_pose/MultiNoncentralAbsolutePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/point_cloud/PointCloudSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/point_cloud/PointCloudSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/CentralRelativePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/EigensolverSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/EigensolverSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiCentralRelativePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/MultiNoncentralRelativePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/MultiNoncentralRelativePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/NoncentralRelativePoseSacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/NoncentralRelativePoseSacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/RotationOnlySacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/RotationOnlySacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/sac_problems/relative_pose/TranslationOnlySacProblem.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/sac_problems/relative_pose/TranslationOnlySacProblem.o"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/src/triangulation/methods.cpp" "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opengv/CMakeFiles/opengv.dir/src/triangulation/methods.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
+  "/usr/include/eigen3/unsupported"
+  "/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

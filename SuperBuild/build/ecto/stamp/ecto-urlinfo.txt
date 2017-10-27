@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/plasmodic/ecto/archive/c6178ed0102a66cebf503a4213c27b0f60cfca69.zip'
+tag='MD5=A5C4757B656D536D3E3CC1DC240EC158'

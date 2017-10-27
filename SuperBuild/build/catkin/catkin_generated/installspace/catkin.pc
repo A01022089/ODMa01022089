@@ -1,0 +1,8 @@
+prefix=/usr/OpenDroneMap_v0_3_1/SuperBuild/install
+
+Name: catkin
+Description: Description of catkin
+Version: 0.6.16
+Cflags: 
+Libs: -L/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib 
+Requires: 

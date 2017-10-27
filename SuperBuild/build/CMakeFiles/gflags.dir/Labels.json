@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/gflags"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/gflags.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/gflags-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/gflags/stamp/gflags-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gflags"
+		],
+		"name" : "gflags"
+	}
+}

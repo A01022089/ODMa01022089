@@ -1,0 +1,79 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6047/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f6047.dir/build.make CMakeFiles/cmTC_f6047.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6047.dir/TestEndianess.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles/cmTC_f6047.dir/TestEndianess.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_f6047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6047.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG    CMakeFiles/cmTC_f6047.dir/TestEndianess.c.o  -o cmTC_f6047 -rdynamic 
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1a99/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e1a99.dir/build.make CMakeFiles/cmTC_e1a99.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1a99.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e1a99.dir/CheckIncludeFile.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_e1a99.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e1a99.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_e1a99.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e1a99/fast' failed
+make[3]: *** [cmTC_e1a99/fast] Error 2
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4de8c/fast"
+make[3]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4de8c.dir/build.make CMakeFiles/cmTC_4de8c.dir/build
+make[4]: Entering directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4de8c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -msse -msse2 -msse3 -ffunction-sections  -O3 -DNDEBUG   -o CMakeFiles/cmTC_4de8c.dir/CheckIncludeFile.c.o   -c /usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_4de8c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4de8c.dir/CheckIncludeFile.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_4de8c.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4de8c/fast' failed
+make[3]: *** [cmTC_4de8c/fast] Error 2
+make[3]: Leaving directory '/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opencv/CMakeFiles/CMakeTmp'
+
+

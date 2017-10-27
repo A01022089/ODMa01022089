@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DBUILD_TESTS=OFF;-DBUILD_PYTHON=ON;-DCMAKE_INSTALL_PREFIX:PATH=/usr/OpenDroneMap_v0_3_1/SuperBuild/install;-GUnix Makefiles;/usr/OpenDroneMap_v0_3_1/SuperBuild/src/opengv'

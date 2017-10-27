@@ -1,0 +1,13 @@
+# Target labels
+ opensfm
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opensfm
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opensfm.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/opensfm-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/opensfm/stamp/opensfm-build.rule

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/PDAL/PDAL/archive/1.4.0.tar.gz'
+tag='MD5=e55c17902d3ed6364454c9d1ad62ff43'

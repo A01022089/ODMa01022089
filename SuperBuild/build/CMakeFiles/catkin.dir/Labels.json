@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/catkin-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/catkin/stamp/catkin-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catkin"
+		],
+		"name" : "catkin"
+	}
+}

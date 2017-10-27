@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_mve-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/mve/src/ext_mve-stamp/ext_mve-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_mve"
+		],
+		"name" : "ext_mve"
+	}
+}

@@ -1,0 +1,4 @@
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/nlopt.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/nlopt.hpp
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/include/nlopt.f
+/usr/OpenDroneMap_v0_3_1/SuperBuild/install/lib/libnlopt.a

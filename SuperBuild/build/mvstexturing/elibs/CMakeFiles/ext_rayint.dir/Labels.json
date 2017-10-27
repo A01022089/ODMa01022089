@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_rayint"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_rayint.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_rayint-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_rayint/src/ext_rayint-stamp/ext_rayint-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_rayint"
+		],
+		"name" : "ext_rayint"
+	}
+}

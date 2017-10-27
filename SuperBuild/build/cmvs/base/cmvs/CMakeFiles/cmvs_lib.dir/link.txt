@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcmvs_lib.a  CMakeFiles/cmvs_lib.dir/bundle.cc.o CMakeFiles/cmvs_lib.dir/graclus.cc.o
+/usr/bin/ranlib libcmvs_lib.a

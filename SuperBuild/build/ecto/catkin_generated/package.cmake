@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ecto")
+set(ecto_MAINTAINER "Vincent Rabaud <vincent.rabaud@gmail.com>, Daniel Stonier <stonier@yujinrobot.com>")
+set(ecto_DEPRECATED "")
+set(ecto_VERSION "0.6.11")
+set(ecto_BUILD_DEPENDS "boost" "python")
+set(ecto_RUN_DEPENDS "boost" "python" "python-pyside" "xdot")
+set(ecto_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libpdal_jsoncpp.a  CMakeFiles/pdal_jsoncpp.dir/jsoncpp.cpp.o
+/usr/bin/ranlib ../../../lib/libpdal_jsoncpp.a

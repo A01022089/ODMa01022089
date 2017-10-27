@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/librandom_generators.a  CMakeFiles/random_generators.dir/test/random_generators.o CMakeFiles/random_generators.dir/test/experiment_helpers.o CMakeFiles/random_generators.dir/test/time_measurement.o
+/usr/bin/ranlib lib/librandom_generators.a

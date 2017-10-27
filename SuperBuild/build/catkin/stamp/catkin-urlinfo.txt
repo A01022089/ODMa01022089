@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/ros/catkin/archive/0.6.16.zip'
+tag='MD5=F5D45AE68709CE6E3346FB8C019416F8'

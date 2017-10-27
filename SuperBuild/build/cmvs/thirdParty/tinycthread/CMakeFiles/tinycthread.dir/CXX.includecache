@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/rwmutex.cpp
+rwmutex.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/rwmutex.h
+limits.h
+-
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/rwmutex.h
+tinycthread.h
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/tinycthread.h
+
+/usr/OpenDroneMap_v0_3_1/SuperBuild/src/cmvs/program/thirdParty/tinycthread/tinycthread.h
+time.h
+-
+pthread.h
+-
+windows.h
+-
+

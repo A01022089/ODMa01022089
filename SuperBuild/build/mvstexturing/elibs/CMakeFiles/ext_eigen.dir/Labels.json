@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_eigen"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_eigen.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/CMakeFiles/ext_eigen-complete.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-install.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-mkdir.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-download.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-update.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-patch.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-configure.rule"
+		},
+		{
+			"file" : "/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/elibs/ext_eigen/src/ext_eigen-stamp/ext_eigen-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ext_eigen"
+		],
+		"name" : "ext_eigen"
+	}
+}

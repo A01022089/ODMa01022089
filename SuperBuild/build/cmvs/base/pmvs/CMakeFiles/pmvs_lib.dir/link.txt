@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpmvs_lib.a  CMakeFiles/pmvs_lib.dir/detectFeatures.cc.o CMakeFiles/pmvs_lib.dir/detector.cc.o CMakeFiles/pmvs_lib.dir/dog.cc.o CMakeFiles/pmvs_lib.dir/expand.cc.o CMakeFiles/pmvs_lib.dir/filter.cc.o CMakeFiles/pmvs_lib.dir/findMatch.cc.o CMakeFiles/pmvs_lib.dir/harris.cc.o CMakeFiles/pmvs_lib.dir/optim.cc.o CMakeFiles/pmvs_lib.dir/option.cc.o CMakeFiles/pmvs_lib.dir/patch.cc.o CMakeFiles/pmvs_lib.dir/patchOrganizerS.cc.o CMakeFiles/pmvs_lib.dir/point.cc.o CMakeFiles/pmvs_lib.dir/seed.cc.o
+/usr/bin/ranlib libpmvs_lib.a

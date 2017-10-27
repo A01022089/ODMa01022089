@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmrf.a  CMakeFiles/mrf.dir/gco_graph.cpp.o CMakeFiles/mrf.dir/graph.cpp.o CMakeFiles/mrf.dir/icm_graph.cpp.o CMakeFiles/mrf.dir/lbp_graph.cpp.o
+/usr/bin/ranlib libmrf.a

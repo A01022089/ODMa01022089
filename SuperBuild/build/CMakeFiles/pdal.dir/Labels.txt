@@ -1,0 +1,13 @@
+# Target labels
+ pdal
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pdal
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pdal.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/pdal-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/pdal/stamp/pdal-build.rule

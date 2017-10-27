@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ecto
+Version: 0.6.11
+Summary: Ecto is a hybrid C++/Python development framework for constructing and maintaining pipelines.
+Home-page: http://plasmodic.github.io/ecto/
+Author: Vincent Rabaud <vincent.rabaud@gmail.com>, Daniel Stonier <stonier@yujinrobot.com>
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

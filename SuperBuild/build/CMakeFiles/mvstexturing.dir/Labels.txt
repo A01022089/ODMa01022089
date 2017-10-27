@@ -1,0 +1,13 @@
+# Target labels
+ mvstexturing
+# Source files and their labels
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/mvstexturing
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/mvstexturing.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/CMakeFiles/mvstexturing-complete.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-install.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-mkdir.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-download.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-update.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-patch.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-configure.rule
+/usr/OpenDroneMap_v0_3_1/SuperBuild/build/mvstexturing/stamp/mvstexturing-build.rule
