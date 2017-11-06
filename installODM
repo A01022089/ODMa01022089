@@ -1,0 +1,45 @@
+#!/bin/bash
+
+#docker installation
+#extra packages
+sudo apt-get install \
+    linux-image-extra-$(uname -r) \
+    linux-image-extra-virtual
+
+#allow apt-get install to use repository over HTTPS
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+#add docker's official GPG key 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+#shows if you have the key 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+apt-key fingerprint 0EBFCD88
+
+#set up stable repository
+add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+#update apt package index
+apt-get update
+#install latest version of docker, previous versions are removed
+apt-get install -y docker-ce
+#run hellow-world image to verify that it is installed correctly
+apt-get install docker-ce
+
+#install Open Dron Map
+cd /usr
+
+#Download zip 
+wget https://github.com/OpenDroneMap/OpenDroneMap/releases/download/v0.3.1/OpenDroneMap_v0_3_1.zip
+#unzip data
+unzip OpenDroneMap_v0_3_1.zip 
+
+#install with sh
+cd OpenDroneMap_v0_3_1/
+bash configure.sh reinstall
+
+
